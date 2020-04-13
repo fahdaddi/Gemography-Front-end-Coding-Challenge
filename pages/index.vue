@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-24">
+  <div class="w-full px-2 md:px-24">
     <repoItem v-for="(item, index) in items" :key="`repository_${index}`" :item="item" />
     <client-only>
       <infinite-loading v-if="!loading" spinner="spiral" @infinite="getMore">
