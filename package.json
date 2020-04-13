@@ -1,0 +1,24 @@
+{
+  "name": "gemo-webapp",
+  "version": "1.0.0",
+  "description": "Front-end Coding Challenge",
+  "author": "Fahd ADDI",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "moment": "^2.24.0",
+    "nuxt": "^2.0.0",
+    "vue-infinite-loading": "^2.4.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
